@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Zmage from "react-zmage";
+// import Zmage from "react-zmage";
 import Fade from "react-reveal";
 
 let id = 0;
@@ -13,8 +13,32 @@ class Portfolio extends Component {
       return (
         <div key={id++} className="columns portfolio-item">
           <div className="item-wrap">
-            <Zmage alt={projects.title} src={projectImage} />
-            <div style={{ textAlign: "center" }}>{projects.title}</div>
+            <img alt={projects.title} src={projectImage} />
+
+            <h5 style={{ textAlign: "center" }}>{projects.title}</h5>
+
+            <p style={{ textAlign: "center" }}>{projects.category}</p>
+
+            <a href={projects.urlGithub} style={{ textAlign: "center" }}>
+              <img
+                src="images/portfolio/github.png"
+                alt={projects.urlGithub}
+                style={{
+                  color: "black",
+                  width: "40%",
+                }}
+              />
+            </a>
+            <a href={projects.url} style={{ textAlign: "center" }}>
+              <img
+                src="images/portfolio/link.svg"
+                alt={projects.url}
+                style={{
+                  color: "black",
+                  width: "30%",
+                }}
+              />
+            </a>
           </div>
         </div>
       );
@@ -25,7 +49,7 @@ class Portfolio extends Component {
         <Fade left duration={1000} distance="40px">
           <div className="row">
             <div className="twelve columns collapsed">
-              <h1>Check Out Some of My Works.</h1>
+              <h1>Éstos son algunos de mis trabajos</h1>
 
               <div
                 id="portfolio-wrapper"

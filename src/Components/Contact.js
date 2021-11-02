@@ -19,7 +19,7 @@ class Contact extends Component {
           <div className="row section-head">
             <div className="two columns header-col">
               <h1>
-                <span>Get In Touch.</span>
+                <span>Contactá conmigo</span>
               </h1>
             </div>
 
@@ -31,12 +31,13 @@ class Contact extends Component {
 
         <div className="row">
           <Slide left duration={1000}>
-            <div className="eight columns">
-              <form action="" method="post" id="contactForm" name="contactForm">
+            <div className="eight columns" style={{ textAlign: "center" }}>
+              <p className="lead">christiancaracach@gmail.com</p>
+              {/* <form action="" method="post" id="contactForm" name="contactForm">
                 <fieldset>
                   <div>
                     <label htmlFor="contactName">
-                      Name <span className="required">*</span>
+                      Nombre <span className="required">*</span>
                     </label>
                     <input
                       type="text"
@@ -63,7 +64,7 @@ class Contact extends Component {
                   </div>
 
                   <div>
-                    <label htmlFor="contactSubject">Subject</label>
+                    <label htmlFor="contactSubject">Motivo</label>
                     <input
                       type="text"
                       defaultValue=""
@@ -76,7 +77,7 @@ class Contact extends Component {
 
                   <div>
                     <label htmlFor="contactMessage">
-                      Message <span className="required">*</span>
+                      Mensaje <span className="required">*</span>
                     </label>
                     <textarea
                       cols="50"
@@ -87,26 +88,26 @@ class Contact extends Component {
                   </div>
 
                   <div>
-                    <button className="submit">Submit</button>
+                    <button className="submit">Enviar</button>
                     <span id="image-loader">
                       <img alt="" src="images/loader.gif" />
                     </span>
                   </div>
                 </fieldset>
-              </form>
+              </form> */}
 
-              <div id="message-warning"> Error boy</div>
+              {/* <div id="message-warning"> Error boy</div>
               <div id="message-success">
                 <i className="fa fa-check"></i>Your message was sent, thank you!
                 <br />
-              </div>
+              </div> */}
             </div>
           </Slide>
 
           <Slide right duration={1000}>
             <aside className="four columns footer-widgets">
               <div className="widget widget_contact">
-                <h4>Address and Phone</h4>
+                {/* <h4>Dirección y teléfono</h4>
                 <p className="address">
                   {name}
                   <br />
@@ -114,10 +115,10 @@ class Contact extends Component {
                   {city}, {state} {zip}
                   <br />
                   <span>{phone}</span>
-                </p>
+                </p> */}
               </div>
 
-              <div className="widget widget_tweets">
+              {/* <div className="widget widget_tweets">
                 <h4 className="widget-title">Latest Tweets</h4>
                 <ul id="twitter">
                   <li>
@@ -144,7 +145,7 @@ class Contact extends Component {
                     </b>
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </aside>
           </Slide>
         </div>

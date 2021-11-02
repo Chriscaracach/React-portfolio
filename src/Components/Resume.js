@@ -14,7 +14,7 @@ class Resume extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const skillmessage = this.props.data.skillmessage;
+    // const skillmessage = this.props.data.skillmessage;
     const education = this.props.data.education.map(function (education) {
       return (
         <div key={education.school}>
@@ -41,18 +41,45 @@ class Resume extends Component {
       );
     });
 
-    const skills = this.props.data.skills.map((skills) => {
-      const backgroundColor = this.getRandomColor();
-      const className = "bar-expand " + skills.name.toLowerCase();
-      const width = skills.level;
-
+    const courses = this.props.data.courses.map(function (course) {
       return (
-        <li key={skills.name}>
-          <span style={{ width, backgroundColor }} className={className}></span>
-          <em>{skills.name}</em>
-        </li>
+        <div key={course.title}>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "row",
+            }}
+          >
+            <h3>{course.title}</h3>
+            <a href={course.urlCertification}>
+              <img
+                src="images/portfolio/link.svg"
+                alt="link"
+                style={{ width: "30px", marginLeft: "10px" }}
+              />
+            </a>
+          </div>
+          <p className="info">
+            {course.company}
+            <span>&bull;</span> <em className="date">{course.years}</em>
+            <span>&bull;</span> <em className="date">{course.hours}</em>
+          </p>
+        </div>
       );
     });
+
+    // const skills = this.props.data.skills.map((skills) => {
+    //   const backgroundColor = this.getRandomColor();
+    //   const className = "bar-expand " + skills.name.toLowerCase();
+    //   const width = skills.level;
+
+    //   return (
+    //     <li key={skills.name}>
+    //       <span style={{ width, backgroundColor }} className={className}></span>
+    //       <em>{skills.name}</em>
+    //     </li>
+    //   );
+    // });
 
     return (
       <section id="resume">
@@ -60,7 +87,7 @@ class Resume extends Component {
           <div className="row education">
             <div className="three columns header-col">
               <h1>
-                <span>Education</span>
+                <span>Estudios</span>
               </h1>
             </div>
 
@@ -76,7 +103,7 @@ class Resume extends Component {
           <div className="row work">
             <div className="three columns header-col">
               <h1>
-                <span>Work</span>
+                <span>Trabajo</span>
               </h1>
             </div>
 
@@ -85,22 +112,35 @@ class Resume extends Component {
         </Slide>
 
         <Slide left duration={1300}>
-          <div className="row skill">
+          <div className="row work">
             <div className="three columns header-col">
               <h1>
-                <span>Skills</span>
+                <span>Cursos</span>
               </h1>
             </div>
 
-            <div className="nine columns main-col">
+            <div className="nine columns main-col">{courses}</div>
+          </div>
+        </Slide>
+
+        {/* 
+        <Slide left duration={1300}>
+          {/* <div className="row skill"> */}
+        {/* <div className="three columns header-col">
+              <h1>
+                <span>Skills</span>
+              </h1>
+            </div> */}
+
+        {/* <div className="nine columns main-col">
               <p>{skillmessage}</p>
 
               <div className="bars">
-                <ul className="skills">{skills}</ul>
+                <ul className="skills">{skills}</ul> 
               </div>
-            </div>
-          </div>
-        </Slide>
+            </div> */}
+        {/* </div> 
+        </Slide> */}
       </section>
     );
   }

@@ -1,184 +1,206 @@
 {
   "main": {
-    "name":"Nordic-Giant Project",
-    "description":"I am a web development engineer and I use react and vue.js to develop pages. This project is a resume template that can be used as the project home page or resume page",
-    "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
-    "github":"https://github.com/nordicgiant2/react-nice-resume",
-    "project":"https://github.com/nordicgiant2/react-nice-resume",
-    "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+    "name": "Christian Caracach",
+    "description": "Desarrollador Front End React",
+    "image": "profilepic.jpeg",
+    "bio": "Estoy buscando mi primer experiencia como informático. Durante el año 2020 tomé como ventaja la necesidad de quedarse en casa para poder formarme en el campo del Desarrollo Front End y sus tecnologías (HTML, CSS, JS, React) con la perspectiva de dedicarme a tiempo completo a ese rubro. Provengo del ámbito de la educación privada, donde el trabajo en equipo y por proyectos es fundamental para el éxito. Tengo como objetivo aplicar mis habilidades adquiridas en mi experiencia como docente, en mis próximos proyectos laborales, sumando las habilidades técnicas necesarias.",
+    "contactmessage": "Contactate conmigo y trabajemos juntos.",
+    "email": "christiancaracach@gmail.com",
+    "phone": "",
+    "github": "https://github.com/Chriscaracach",
+    "project": "https://github.com/Chriscaracach/React-adminstore",
+    "address": {
+      "street": "",
+      "city": "Unquillo",
+      "state": "Córdoba",
+      "zip": ""
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
-    "social":[
+    "website": "https://www.linkedin.com/in/christian-caracach/",
+    "resumedownload": "https://drive.google.com/file/d/1GViF9VqwdTPzorLtelP5w_A59mTxv7Z2/view?usp=sharing",
+    "social": [
       {
-        "name":"facebook",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-facebook"
+        "name": "facebook",
+        "url": "https://www.facebook.com/christian.caracach/",
+        "className": "fa fa-facebook"
       },
       {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
+        "name": "twitter",
+        "url": "https://twitter.com/CCaracach",
+        "className": "fa fa-twitter"
       },
       {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
-        "className":"fa fa-linkedin"
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/christian-caracach/",
+        "className": "fa fa-linkedin"
       },
       {
-        "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
-        "className":"fa fa-instagram"
+        "name": "instagram",
+        "url": "https://www.instagram.com/chriscaracach/?hl=es",
+        "className": "fa fa-instagram"
       },
       {
-        "name":"github",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-github"
+        "name": "github",
+        "url": "https://github.com/Chriscaracach",
+        "className": "fa fa-github"
       }
     ]
   },
-  "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
-    "education":[
+  "resume": {
+    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "education": [
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2017",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school": "ISPC (Instituto Superior Politécnico de Córdoba",
+        "degree": "Tecnicatura Superior en Desarrollo web y de Aplicaciones Digitales",
+        "graduated": "2021 - actualidad",
+        "description": ""
       },
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2013",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school": "Conservatorio Provincial de Música 'Félix T. Garzón'",
+        "degree": "Profesorado de música",
+        "graduated": "2010 - 2015 (egresado)",
+        "description": ""
       }
     ],
-    "work":[
+    "work": [
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2018 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
-      },
-      {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2017 - February 2018",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "Varias escuelas de mi zona",
+        "title": "Docente de música",
+        "years": "2016 - actualidad",
+        "description": "Docente de música de nivel Inicial, Primario y Secundario. Proyectos educativos. A cargo de niños y jóvenes de 4 a 21 años."
       }
     ],
-    "skills":[
+    "courses": [
       {
-        "name":"Python",
-        "level":"60%"
+        "company": "EF Set",
+        "title": "EF Standard English Test",
+        "years": "Septiembre 2020",
+        "hours": "C1 - Advanced",
+        "urlCertification": "https://www.efset.org/cert/uD2GJb"
       },
       {
-        "name":"VueJs",
-        "level":"55%"
+        "company": "freeCodeCamp",
+        "title": "Responsive Web Design",
+        "years": "Septiembre 2020",
+        "hours": "300 hs.",
+        "urlCertification": "https://www.freecodecamp.org/certification/chriscaracach/responsive-web-design"
       },
       {
-        "name":"ReactJs",
-        "level":"50%"
+        "company": "freeCodeCamp",
+        "title": "Javascript Algorithms and Data Structures",
+        "years": "Octubre 2020",
+        "hours": "300 hs.",
+        "urlCertification": "https://freecodecamp.org/certification/chriscaracach/javascript-algorithms-and-data-structures"
       },
       {
-        "name":"CSS",
-        "level":"90%"
+        "company": "Hackerrank",
+        "title": "Javascript (Basic)",
+        "years": "Agosto 2021",
+        "hours": "",
+        "urlCertification": "https://www.hackerrank.com/certificates/a7492688aab8"
       },
       {
-        "name":"PHP",
-        "level":"80%"
+        "company": "Udemy",
+        "title": "Modern Javascript for React JS - ES6",
+        "years": "Julio 2021",
+        "hours": "",
+        "urlCertification": "https://www.udemy.com/certificate/UC-cd6f0eee-b435-454d-ba48-7121f0b55161/"
       },
       {
-        "name":"Swift",
-        "level":"50%"
+        "company": "Udemy",
+        "title": "React + Firebase",
+        "years": "Mayo 2021",
+        "hours": "",
+        "urlCertification": "https://www.udemy.com/certificate/UC-cd4348cf-ae7e-4116-abb5-3c9a80db34e6/"
       },
       {
-        "name":"JAVA",
-        "level":"80%"
+        "company": "Udemy",
+        "title": "To-do list app (React, Express, MongoDB)",
+        "years": "Marzo 2021",
+        "hours": "",
+        "urlCertification": "https://www.udemy.com/certificate/UC-681c1547-b78e-406c-906d-f9413c244dd1/"
+      },
+      {
+        "company": "Incluit",
+        "title": "Testing de software - Conceptos Básicos",
+        "years": "Septiembre 2021",
+        "hours": "",
+        "urlCertification": "https://drive.google.com/file/d/1fTLZZSzY5ZrL6nk4kp26ZcmkUt0eB1cq/view?usp=sharing"
+      },
+      {
+        "company": "MongoDB University",
+        "title": "MongoDB Basics",
+        "years": "Septiembre 2021",
+        "hours": "",
+        "urlCertification": "https://university.mongodb.com/course_completion/15085d8f-0669-4c0c-adf8-18d0619ac07b"
+      },
+      {
+        "company": "MongoDB University",
+        "title": "MongoDB for Javascript Developers",
+        "years": "Octubre 2021",
+        "hours": "",
+        "urlCertification": "https://university.mongodb.com/course_completion/37253ebc-943e-4aca-9866-2aaaacc983eb"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Python",
+        "level": "60%"
+      },
+      {
+        "name": "VueJs",
+        "level": "55%"
+      },
+      {
+        "name": "ReactJs",
+        "level": "50%"
+      },
+      {
+        "name": "CSS",
+        "level": "90%"
+      },
+      {
+        "name": "PHP",
+        "level": "80%"
+      },
+      {
+        "name": "Swift",
+        "level": "50%"
+      },
+      {
+        "name": "JAVA",
+        "level": "80%"
       }
     ]
   },
-  "portfolio":{
+  "portfolio": {
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"01.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title": "Adminstore",
+        "category": "Web app de gestión de ventas y compras a proveedores (React, Firebase)",
+        "image": "reactfirebase.jpg",
+        "urlGithub": "https://github.com/Chriscaracach/React-adminstore",
+        "url": "https://adminstoreccaracach.web.app"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com"
+        "title": "Poketeam",
+        "category": "Web app que hice para practicar Redux (React, Redux)",
+        "image": "react.png",
+        "urlGithub": "https://github.com/Chriscaracach/React-poketeam",
+        "url": "https://poketeamccaracach.web.app/"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "title": "Todo list",
+        "category": "Simple app todo (React, Firebase)",
+        "image": "reactfirebase.jpg",
+        "urlGithub": "https://github.com/Chriscaracach/React-todolistapp",
+        "url": "https://todolistccaracach.web.app/"
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
-      },
-      {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
-      },
-      {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"01.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
-      },
-      {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "title": "CriptoAPI",
+        "category": "App que muestra precios de criptomonedas (React, CoinGeckoAPI)",
+        "image": "react.png",
+        "urlGithub": "https://github.com/Chriscaracach/React-criptoapi",
+        "url": "https://coinsapichriscaracach.web.app/"
       }
     ]
   }
